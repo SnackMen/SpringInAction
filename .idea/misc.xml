@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVCModule1" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVCModule2" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVCModule3" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringMVCModule1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVCModule2/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVCModule3/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />

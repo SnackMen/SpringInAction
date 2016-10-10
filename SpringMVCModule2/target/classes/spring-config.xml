@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="duck" class="com.ws.spring.Juggler">
+        <constructor-arg value="15" />
+    </bean>
+    <bean id="sonnet29" class="com.ws.spring.Sonnet29" />
+    <bean id="poeticDuck" class="com.ws.spring.PoeticJuggler" init-method="turnOnLight" destroy-method="turnOffLight">
+        <constructor-arg value="15" />
+        <constructor-arg ref="sonnet29" />
+    </bean>
+    <!--factory-method用来调用指定的静态方法-->
+    <bean id="theStage" class="com.ws.spring.Stage" factory-method="getInstance" />
+
+
+
+    <bean id="saxophone" class="com.ws.spring.Saxophone"/>
+    <!--设值注入-->
+    <!--首先被实例化，然后将值传入 getter setter method-->
+    <bean id="kenny" class="com.ws.spring.Instrumentalist"
+        p:song="Jingle Bells" p:instrument-ref="saxophone"/>
+<!--内部bean缺点：仅仅适用于一次注入，也不能被其他bean所引用，而且内部bean1定义会影响SpringXML的可读性-->
+
+    <!--<bean id="hank" class="com.ws.spring.OneManband">-->
+        <!--<property name="instruments">-->
+            <!--<map>-->
+                <!--<entry key="1" value="guitar" />-->
+                <!--<entry key="2" value="cymbal" />-->
+                <!--<entry key="3" value="harmonica" />-->
+            <!--</map>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <bean id="hank" class="com.ws.spring.OneManband">
+        <property name="instruments">
+            <props>
+                <prop key="GUITAR">StRUM STRUM STRUM</prop>
+                <prop key="CYMBAL">CRASH CRASH CRASH</prop>
+                <prop key="HARMONICA">HUM HUM HUM</prop>
+            </props>
+        </property>
+
+    </bean>
+
+    <bean id="carl" class="com.ws.spring.Instrumentalist">
+        <property name="song" value="#{kenny.song}" />
+        <property name="instrument" ref="#{saxophone}" />
+    </bean>
+</beans>

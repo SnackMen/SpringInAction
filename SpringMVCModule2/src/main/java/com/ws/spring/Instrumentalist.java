@@ -2,6 +2,7 @@ package com.ws.spring;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by laowang on 16-10-10.
@@ -21,7 +22,6 @@ public class Instrumentalist implements Performer {
     }
     private Instrument instrument;
 
-    @Autowired
     public void setInstrument(Instrument instrument) {
         this.instrument = instrument;
     }

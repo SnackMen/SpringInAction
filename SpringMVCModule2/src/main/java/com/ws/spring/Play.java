@@ -1,6 +1,6 @@
 package com.ws.spring;
 
-import com.ws.configuration.SpringIdolConfig;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -14,9 +14,15 @@ public class Play {
 ////        instrument.play();
 //        Performer performer = (Performer)ctx.getBean("duke");
 //        performer.perform();
-        SpringIdolConfig springIdolConfig = new SpringIdolConfig();
-        Performer performer = springIdolConfig.poeticDuke();
-        performer.perform();
+//        SpringIdolConfig springIdolConfig = new SpringIdolConfig();
+//        Performer performer = springIdolConfig.poeticDuke();
+//        performer.perform();
+
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-config.xml");
+        Volunteer volunteer = new Volunteer();
+        Magician magician = (Magician) ctx.getBean("magic");
+        volunteer.thinkOfSomething("Queen of Hearts");
+        System.out.println(magician.getThoughts());
 
 
     }

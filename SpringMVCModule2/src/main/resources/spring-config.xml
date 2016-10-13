@@ -6,8 +6,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
-   <context:component-scan base-package="com.ws.configuration" />
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+   <context:component-scan base-package="com.ws.spring" />
    <!--</context:component-scan>-->
     <!--<bean id="duck" class="com.ws.spring.Juggler">-->
         <!--<constructor-arg value="15" />-->
@@ -18,7 +21,7 @@
         <!--<constructor-arg ref="sonnet29" />-->
     <!--</bean>-->
     <!--factory-method用来调用指定的静态方法-->
-    <bean id="theStage" class="com.ws.spring.Stage" factory-method="getInstance" />
+    <!--<bean id="theStage" class="com.ws.spring.Stage" factory-method="getInstance" />-->
 
 
 
@@ -39,38 +42,47 @@
         <!--</property>-->
     <!--</bean>-->
 
-    <bean id="hank" class="com.ws.spring.OneManband">
-        <property name="instruments">
-            <props>
-                <prop key="GUITAR">StRUM STRUM STRUM</prop>
-                <prop key="CYMBAL">CRASH CRASH CRASH</prop>
-                <prop key="HARMONICA">HUM HUM HUM</prop>
-            </props>
-        </property>
+    <!--<bean id="hank" class="com.ws.spring.OneManband">-->
+        <!--<property name="instruments">-->
+            <!--<props>-->
+                <!--<prop key="GUITAR">StRUM STRUM STRUM</prop>-->
+                <!--<prop key="CYMBAL">CRASH CRASH CRASH</prop>-->
+                <!--<prop key="HARMONICA">HUM HUM HUM</prop>-->
+            <!--</props>-->
+        <!--</property>-->
 
-    </bean>
+    <!--</bean>-->
 
     <!--<bean id="carl" class="com.ws.spring.Instrumentalist">-->
         <!--<property name="song" value="#{kenny.song}" />-->
         <!--<property name="instrument" ref="#{saxophone}" />-->
     <!--</bean>-->
 
-    <bean id="audience" class="com.ws.spring.Audience" />
-    <!--spring AOP配置-->
-    <aop:config>
-        <aop:aspect ref="audience">
-            <aop:pointcut id="performance" expression="execution(* com.ws.spring.Performer.perform(..))" />
-            <aop:before pointcut-ref="performance" method="takeSeats" />
-            <aop:before pointcut-ref="performance" method="turnOffCellPhones"/>
-            <aop:after-returning pointcut-ref="performance" method="applaud" />
-            <aop:after-throwing pointcut-ref="performance" method="demainRefund"/>
-        </aop:aspect>
-    </aop:config>
+    <!--<bean id="audience" class="com.ws.spring.Audience" />-->
+    <!--&lt;!&ndash;spring AOP配置&ndash;&gt;-->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="audience">-->
+            <!--<aop:pointcut id="performance" expression="execution(* com.ws.spring.Performer.perform(..))" />-->
+            <!--<aop:before pointcut-ref="performance" method="takeSeats" />-->
+            <!--<aop:before pointcut-ref="performance" method="turnOffCellPhones"/>-->
+            <!--<aop:after-returning pointcut-ref="performance" method="applaud" />-->
+            <!--<aop:after-throwing pointcut-ref="performance" method="demainRefund"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
 
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="audience">-->
+        <!--<aop:pointcut id="performance2" expression="execution(* com.ws.spring.Performer.perform(..))" />-->
+            <!--<aop:around pointcut-ref="performance2" method="watchPerformance" />-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <bean name="magic" class="com.ws.spring.Magician" />
+    <!--<bean name="thinking" class="com.ws.spring.Volunteer" />-->
     <aop:config>
-        <aop:aspect ref="audience">
-        <aop:pointcut id="performance2" expression="execution(* com.ws.spring.Performer.perform(..))" />
-            <aop:around pointcut-ref="performance2" method="watchPerformance" />
+        <aop:aspect ref="magic">
+            <aop:pointcut id="thinking" expression="execution(* com.ws.spring.Thinker.thinkOfSomething(String)) and args(thoughts)" />
+            <aop:before pointcut-ref="thinking" method="interceptThoughts" arg-names="thoughts" />
         </aop:aspect>
     </aop:config>
 </beans>

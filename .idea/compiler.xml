@@ -30,7 +30,7 @@
     <bytecodeTargetLevel>
       <module name="SpringMVCModule1" target="1.5" />
       <module name="SpringMVCModule2" target="1.5" />
-      <module name="SpringMVCModule3" target="1.5" />
+      <module name="SpringMVCModule3" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

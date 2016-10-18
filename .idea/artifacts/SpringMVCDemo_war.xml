@@ -3,6 +3,26 @@
     <output-path>$PROJECT_DIR$/SpringMVCDemo/target</output-path>
     <root id="archive" name="springmvc.war">
       <element id="artifact" artifact-name="SpringMVCDemo:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.2.RELEASE" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVCDemo4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SpringMVCDemo4/web/Web" />
     </root>
   </artifact>
 </component>

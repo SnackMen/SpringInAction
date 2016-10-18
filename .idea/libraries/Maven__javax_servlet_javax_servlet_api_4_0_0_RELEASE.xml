@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.servlet:javax.servlet-api:4.0.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../mavenRepo/javax/servlet/javax.servlet-api/4.0.0.RELEASE/javax.servlet-api-4.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../mavenRepo/javax/servlet/javax.servlet-api/4.0.0.RELEASE/javax.servlet-api-4.0.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../mavenRepo/javax/servlet/javax.servlet-api/4.0.0.RELEASE/javax.servlet-api-4.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

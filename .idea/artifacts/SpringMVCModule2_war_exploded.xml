@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SpringMVCModule2:war exploded">
-    <output-path>$PROJECT_DIR$/SpringMVCModule1/target/springmvc</output-path>
+    <output-path>$PROJECT_DIR$/SpringMVCModule2/target/springmvc</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -17,10 +17,11 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/SpringMVCModule1/target/springmvc/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/SpringMVCModule2/target/springmvc/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="SpringMVCModule2/web/Web" />
     </root>

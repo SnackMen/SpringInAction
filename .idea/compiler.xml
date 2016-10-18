@@ -23,21 +23,23 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="SpringDAO" />
-        <module name="SpringMVCModule3" />
-      </profile>
-      <profile default="false" name="Annotation profile for springmvc Maven Webapp" enabled="true">
-        <sourceOutputDir name="../SpringMVCModule1/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../SpringMVCModule1/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
+        <module name="SpringMVCDemo" />
+        <module name="SpringMVCDemo1" />
+        <module name="SpringMVCDemo2" />
+        <module name="SpringMVCDemo3" />
         <module name="SpringMVCModule2" />
+        <module name="SpringMVCModule3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringDAO" target="1.5" />
+      <module name="SpringMVCDemo" target="1.5" />
+      <module name="SpringMVCDemo1" target="1.5" />
+      <module name="SpringMVCDemo2" target="1.5" />
+      <module name="SpringMVCDemo3" target="1.5" />
       <module name="SpringMVCModule1" target="1.5" />
       <module name="SpringMVCModule2" target="1.5" />
-      <module name="SpringMVCModule3" target="1.5" />
+      <module name="SpringMVCModule3" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

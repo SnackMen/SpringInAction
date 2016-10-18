@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringDAO/SpringDAO.iml" filepath="$PROJECT_DIR$/SpringDAO/SpringDAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVCDemo/SpringMVCDemo.iml" filepath="$PROJECT_DIR$/SpringMVCDemo/SpringMVCDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVCDemo1/SpringMVCDemo1.iml" filepath="$PROJECT_DIR$/SpringMVCDemo1/SpringMVCDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVCDemo2/SpringMVCDemo2.iml" filepath="$PROJECT_DIR$/SpringMVCDemo2/SpringMVCDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVCDemo3/SpringMVCDemo3.iml" filepath="$PROJECT_DIR$/SpringMVCDemo3/SpringMVCDemo3.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVCModule1/SpringMVCModule1.iml" filepath="$PROJECT_DIR$/SpringMVCModule1/SpringMVCModule1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVCModule2/SpringMVCModule2.iml" filepath="$PROJECT_DIR$/SpringMVCModule2/SpringMVCModule2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVCModule3/SpringMVCModule3.iml" filepath="$PROJECT_DIR$/SpringMVCModule3/SpringMVCModule3.iml" />

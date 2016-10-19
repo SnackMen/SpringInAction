@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="SpeingMvcDemo9" />
         <module name="SpringDAO" />
         <module name="SpringMVCDemo" />
         <module name="SpringMVCDemo1" />
@@ -32,11 +33,13 @@
         <module name="SpringMvcDemo6" />
         <module name="SpringMvcDemo7" />
         <module name="SpringMvcDemo8" />
+        <module name="SpringMvcDemo9" />
         <module name="SpringMVCModule2" />
         <module name="SpringMVCModule3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpeingMvcDemo9" target="1.5" />
       <module name="SpringDAO" target="1.5" />
       <module name="SpringMVCDemo" target="1.5" />
       <module name="SpringMVCDemo1" target="1.5" />
@@ -47,6 +50,7 @@
       <module name="SpringMvcDemo6" target="1.8" />
       <module name="SpringMvcDemo7" target="1.8" />
       <module name="SpringMvcDemo8" target="1.8" />
+      <module name="SpringMvcDemo9" target="1.8" />
       <module name="SpringMVCModule1" target="1.5" />
       <module name="SpringMVCModule2" target="1.5" />
       <module name="SpringMVCModule3" target="1.6" />

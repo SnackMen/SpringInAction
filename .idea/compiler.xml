@@ -29,6 +29,7 @@
         <module name="SpringMVCDemo3" />
         <module name="SpringMVCDemo4" />
         <module name="SpringMvcDemo5" />
+        <module name="SpringMvcDemo6" />
         <module name="SpringMVCModule2" />
         <module name="SpringMVCModule3" />
       </profile>
@@ -41,6 +42,7 @@
       <module name="SpringMVCDemo3" target="1.5" />
       <module name="SpringMVCDemo4" target="1.5" />
       <module name="SpringMvcDemo5" target="1.7" />
+      <module name="SpringMvcDemo6" target="1.8" />
       <module name="SpringMVCModule1" target="1.5" />
       <module name="SpringMVCModule2" target="1.5" />
       <module name="SpringMVCModule3" target="1.6" />

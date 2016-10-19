@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo4" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo5" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo6" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo7" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCModule1" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCModule2" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCModule3" />
@@ -28,6 +29,7 @@
         <option value="$PROJECT_DIR$/SpringMVCDemo4/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMvcDemo5/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMvcDemo6/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcDemo7/pom.xml" />
       </list>
     </option>
   </component>

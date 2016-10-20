@@ -4,8 +4,12 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringHibernate" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo1" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo10" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo12" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo13" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo2" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo3" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo4" />
@@ -34,6 +38,11 @@
         <option value="$PROJECT_DIR$/SpringMvcDemo7/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMvcDemo8/pom.xml" />
         <option value="$PROJECT_DIR$/SpeingMvcDemo9/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcDemo10/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcDemo11/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringHibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcDemo12/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcDemo13/pom.xml" />
       </list>
     </option>
   </component>

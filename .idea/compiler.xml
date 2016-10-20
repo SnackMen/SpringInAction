@@ -24,8 +24,13 @@
         <processorPath useClasspath="true" />
         <module name="SpeingMvcDemo9" />
         <module name="SpringDAO" />
+        <module name="SpringHibernate" />
         <module name="SpringMVCDemo" />
         <module name="SpringMVCDemo1" />
+        <module name="SpringMvcDemo10" />
+        <module name="SpringMvcDemo11" />
+        <module name="SpringMvcDemo12" />
+        <module name="SpringMvcDemo13" />
         <module name="SpringMVCDemo2" />
         <module name="SpringMVCDemo3" />
         <module name="SpringMVCDemo4" />
@@ -41,8 +46,13 @@
     <bytecodeTargetLevel>
       <module name="SpeingMvcDemo9" target="1.5" />
       <module name="SpringDAO" target="1.5" />
+      <module name="SpringHibernate" target="1.8" />
       <module name="SpringMVCDemo" target="1.5" />
       <module name="SpringMVCDemo1" target="1.5" />
+      <module name="SpringMvcDemo10" target="1.8" />
+      <module name="SpringMvcDemo11" target="1.8" />
+      <module name="SpringMvcDemo12" target="1.5" />
+      <module name="SpringMvcDemo13" target="1.5" />
       <module name="SpringMVCDemo2" target="1.5" />
       <module name="SpringMVCDemo3" target="1.5" />
       <module name="SpringMVCDemo4" target="1.5" />

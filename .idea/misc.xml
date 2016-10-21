@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo10" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo12" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo13" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvcDemo14" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo2" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo3" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCDemo4" />
@@ -43,6 +44,7 @@
         <option value="$PROJECT_DIR$/SpringHibernate/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMvcDemo12/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMvcDemo13/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvcDemo14/pom.xml" />
       </list>
     </option>
   </component>
@@ -55,6 +57,9 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/SpringMvcDemo14/src/main/webapp/WEB-INF/web.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

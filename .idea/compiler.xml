@@ -31,6 +31,7 @@
         <module name="SpringMvcDemo11" />
         <module name="SpringMvcDemo12" />
         <module name="SpringMvcDemo13" />
+        <module name="SpringMvcDemo14" />
         <module name="SpringMVCDemo2" />
         <module name="SpringMVCDemo3" />
         <module name="SpringMVCDemo4" />
@@ -51,8 +52,9 @@
       <module name="SpringMVCDemo1" target="1.5" />
       <module name="SpringMvcDemo10" target="1.8" />
       <module name="SpringMvcDemo11" target="1.8" />
-      <module name="SpringMvcDemo12" target="1.5" />
+      <module name="SpringMvcDemo12" target="1.6" />
       <module name="SpringMvcDemo13" target="1.5" />
+      <module name="SpringMvcDemo14" target="1.8" />
       <module name="SpringMVCDemo2" target="1.5" />
       <module name="SpringMVCDemo3" target="1.5" />
       <module name="SpringMVCDemo4" target="1.5" />
